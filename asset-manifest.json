@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/StudioGraphine/static/css/main.cca24136.css",
+    "main.js": "/StudioGraphine/static/js/main.5fe9c10f.js",
+    "static/media/jessica-radanavong-IchPBHFD0pw-unsplash.png": "/StudioGraphine/static/media/jessica-radanavong-IchPBHFD0pw-unsplash.3ad8ac44c189ee44f7ea.png",
+    "static/media/18591063.png": "/StudioGraphine/static/media/18591063.7261d9d9dbfb89fe4119.png",
+    "static/media/Star 3.svg": "/StudioGraphine/static/media/Star 3.3b4b3c7e2128fc04c6459460b49894a0.svg",
+    "index.html": "/StudioGraphine/index.html",
+    "main.cca24136.css.map": "/StudioGraphine/static/css/main.cca24136.css.map",
+    "main.5fe9c10f.js.map": "/StudioGraphine/static/js/main.5fe9c10f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cca24136.css",
+    "static/js/main.5fe9c10f.js"
+  ]
+}
