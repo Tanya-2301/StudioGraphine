@@ -1,0 +1,44 @@
+.product-img-div {
+  position: relative;
+  height: 332px;
+  width: 310px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.group {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.product-div {
+  width: 310px;
+  margin-left: 26px;
+}
+
+.product-title {
+  color: black;
+  font-size: 26px;
+  font-family: Syne;
+  font-weight: 600;
+}
+
+.product-descp {
+  color: rgba(22, 22, 21, 0.5);
+  font-size: 14px;
+  font-family: Work Sans;
+  font-weight: 400;
+}
+
+.product-price {
+  color: black;
+  font-size: 26px;
+  font-family: Syne;
+  font-weight: 600;
+}
+
+.product-details {
+  margin-top: 20px;
+}

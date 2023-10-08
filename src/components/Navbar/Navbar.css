@@ -1,0 +1,86 @@
+.navbar {
+  padding: 12px 90px;
+  color: #ffffff;
+}
+
+.navbar-upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 3vw;
+  font-weight: 275;
+}
+
+.wishlist {
+  color: white;
+  font-size: 14px;
+  font-family: Work Sans;
+  font-weight: bold;
+}
+
+.wish {
+  margin-right: 16px;
+}
+
+.hl {
+  border-bottom: 1px solid white;
+  width: 100%;
+  padding: 1px;
+  /* height: 100%; */
+}
+
+.prod {
+  position: relative;
+}
+
+.prod-dropdown {
+  position: absolute;
+}
+
+.nav-contents {
+  width: 70%;
+  display: flex;
+  margin-top: 1%;
+  margin-left: 3%;
+  justify-content: space-between;
+
+}
+
+.nav-content {
+  margin: 2% 8%;
+  position: relative;
+  font-size: 1.4vw;
+  font-family: "Work Sans";
+  font-weight: bold;
+}
+
+
+
+.prod-name {
+  font-size: 14px;
+  font-family: Work Sans;
+  font-weight: 300;
+  margin: 6px 0px;
+}
+
+/* Your existing styles for larger screens */
+
+/* Media query for smaller screens */
+@media (max-width: 700px) {
+  .wishlist{
+    display: none;
+   }
+   .nav-contents{
+     visibility: hidden;
+   }
+  
+
+  
+
+ 
+}
+

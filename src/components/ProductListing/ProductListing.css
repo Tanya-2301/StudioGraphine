@@ -1,0 +1,102 @@
+
+.listing-bar-div {
+  display: flex;
+  
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.productlisting {
+  height: 772px;
+}
+
+.listing-title {
+  font-size: 5vw;
+  margin-top: 2%;
+  
+  font-family: Syne;
+  font-weight: 600;
+}
+
+.line-18 {
+  position: relative;
+  width: 100%;
+ 
+}
+
+.star-2 {
+  position: absolute;
+  margin-top: 0.3%;
+  left: 0%;
+  
+}
+
+.product-options {
+  color: black;
+  margin: 2%;
+  font-size: 1.5vw;
+  font-family: Work Sans;
+  font-weight: 400;
+  margin-left: 10%;
+}
+
+.product-options p {
+  margin-bottom: 10%;
+}
+
+.products-container {
+  display: flex;
+  margin-bottom: 10%;
+}
+
+.product-card-container {
+  overflow-x: scroll;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.product-card-container::-webkit-scrollbar {
+  display: none;
+}
+
+.accessories {
+  font-size: 3vw;
+  font-family: "Syne";
+  font-weight: 600;
+}
+
+.arrow{
+  position: absolute;
+  right: 5%;
+  margin-right: 2%;
+}
+.arrow-left{
+  margin: 2%;
+  right:16%;
+}
+.arrow-right{
+  margin: 2%;
+}
+
+@media (max-width:800px){
+  .product-options{
+    /* background-color: red; */
+    display: flex;
+    position: absolute;
+    width: 80%;
+  }
+  .product-options p{
+    font-size: 2vw;
+    margin: 2% 8%;
+
+  }
+  .product-card-container{
+    margin-top: 6%;
+  }
+  .listing-title{
+    font-size: 8vw;
+  }
+}
